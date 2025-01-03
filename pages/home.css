@@ -1,0 +1,41 @@
+
+.home-page {
+    font-family: sans-serif;
+    margin: 0 auto;
+    padding: 2rem;
+    max-width: 1200px;
+  }
+  
+  .hero-section {
+    position: relative;
+    text-align: center;
+    color: white;
+    margin-bottom: 2rem;
+  }
+  
+  .hero-image {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+  
+  .hero-text {
+    position: absolute;
+    color:blue;
+    top: 1000%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .hero-text h1 {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+   
+  }
+  
+  .intro-section {
+    text-align: center;
+    margin-top: 10%;
+  }
+  
+  

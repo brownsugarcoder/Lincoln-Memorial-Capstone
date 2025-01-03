@@ -1,0 +1,40 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  background-color: #bcd0e5;
+  opacity: 0.9;
+  height: 20px;
+}
+
+.navbar-menu {
+  display: flex;
+  align-items: center;
+  flex-grow: 1; /* Ensures the menu takes up available space */
+}
+
+.navbar-menu ul {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+}
+
+.navbar-menu ul li a {
+  text-decoration: none;
+  color: #333;
+}
+
+.navbar-menu button {
+  margin-left: auto; 
+  padding: 0.5rem 1rem;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.navbar-menu button:hover {
+  background-color: #0056b3;
+}
