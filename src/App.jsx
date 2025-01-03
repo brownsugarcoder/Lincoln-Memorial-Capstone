@@ -5,8 +5,8 @@ import PlanTrip from '../pages/PlanTrip';
 import History from '../pages/History';
 import Explore from '../pages/Explore';
 import Navbar from '../components/Navbar';
-import Header from '../components/Header';
 import Toggle from '../components/Toggle';
+
 
 import './assets/index.css'
 
@@ -20,7 +20,7 @@ function App () {
         <Route path="/explore" element={<Explore />} />
         <Route path="/plantrip" element={<PlanTrip />} />
         </Routes>
-      
+       
     </Router>
 
     

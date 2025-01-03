@@ -4,7 +4,7 @@
   align-items: center;
   padding: 1rem;
   background-color: #bcd0e5;
-  opacity: 0.9;
+  opacity: 90;
   height: 20px;
 }
 
@@ -22,7 +22,7 @@
 
 .navbar-menu ul li a {
   text-decoration: none;
-  color: #333;
+  color: #0a0909;
 }
 
 .navbar-menu button {

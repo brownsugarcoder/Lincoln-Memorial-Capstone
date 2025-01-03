@@ -1,41 +1,51 @@
+@keyframes fadeIn {
+  0%   { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+
 
 .home-page {
+    background: url('/liconln.png')  no-repeat;
+    height: 34vw;
+    margin: 20px auto;
     font-family: sans-serif;
     margin: 0 auto;
-    padding: 2rem;
+    padding: 10rem;
     max-width: 1200px;
+   
   }
   
   .hero-section {
+    
+    gap: 1.5vw;
+
+    animation: fadeIn 3s;
+    bottom: 10%;
+    left: 6vw;
     position: relative;
     text-align: center;
     color: white;
     margin-bottom: 2rem;
-  }
-  
-  .hero-image {
-    width: 100%;
-    height: auto;
-    object-fit: cover;
-  }
-  
-  .hero-text {
-    position: absolute;
-    color:blue;
-    top: 1000%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    
   }
   
   .hero-text h1 {
-    font-size: 2.5rem;
-    margin-bottom: 0.5rem;
+   font-weight: 700;
+   text-align: center;
+  margin-top: -10%;
+   color: white;
+   font-size: 3.5rem;
+   left: 6vw;
    
   }
-  
-  .intro-section {
-    text-align: center;
-    margin-top: 10%;
+
+  .fade-in-keyframes {
+    animation: fadeIn 2.5s ease-in forwards;
+    /* 2s = duration, ease-in = timing function, forwards = stay at opacity:1 */
   }
+  
+  
+  
   
   
