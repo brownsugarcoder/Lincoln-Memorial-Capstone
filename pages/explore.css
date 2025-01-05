@@ -1,0 +1,109 @@
+/* ------------------------------------------------------- */
+/* Keep the same core body style for continuity            */
+/* ------------------------------------------------------- */
+
+  
+  /* ------------------------------------------------------- */
+  /* Background Container (reusing the same gradient, image) */
+  /* ------------------------------------------------------- */
+  .background-container {
+  
+    
+    position: relative;
+    margin: 20px auto;
+    margin-left: 5%;
+
+    
+  }
+  
+  /* ------------------------------------------------------- */
+  /* Main Wrapper (similar to .login-wrapper / .plan-trip)   */
+  /* ------------------------------------------------------- */
+  .explore-wrapper {
+  
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: rgba(76, 76, 108, 0.6);
+    backdrop-filter: blur(25px);
+    box-shadow: 0px 0px 10px 2px rgba(36, 36, 51, 0.8);
+    width: 95%;
+    max-width: 1200px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    bottom: -50%;
+    transform: translate(-50%, -50%);
+    border-radius: 18px;
+    padding: 40px 50px 50px;
+  }
+  
+  /* ------------------------------------------------------- */
+  /* Heading & Paragraph                                     */
+  /* ------------------------------------------------------- */
+  .explore-wrapper h1 {
+    font-weight: 800;
+    font-size: 30px;
+    text-align: center;
+    color: #ccc;
+    margin-bottom: 0.5rem;
+  }
+  
+  .explore-wrapper p {
+    text-align: center;
+    font-size: 1rem;
+    color: #eee;
+    margin-bottom: 2rem;
+  }
+  
+  /* ------------------------------------------------------- */
+  /* Card Container                                          */
+  /* ------------------------------------------------------- */
+  .explore-card-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  /* ------------------------------------------------------- */
+  /* Individual Explore Cards                                */
+  /* ------------------------------------------------------- */
+  .explore-card {
+    background: #fff;
+    border-radius: 8px;
+    max-width: 300px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    transition: transform 0.2s ease;
+  }
+  
+  .explore-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .explore-card-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .explore-card-title {
+    font-size: 1.2rem;
+    margin: 0.8rem;
+    color: #333;
+    font-weight: bold;
+  }
+  
+  .explore-card-description {
+    margin: 0 0.8rem 1rem 0.8rem;
+    color: #555;
+    font-size: 0.95rem;
+    line-height: 1.4;
+  }
+  
+
+  

@@ -1,79 +1,59 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
+import './History.css';
 
-
-const History = () => {
-  return <h1>This is The History Page</h1>;
-
-    
-
-
-function Login() {
-  const [email, setEmail] = useState('');
-  const [password, setPassword] = useState('');
-  const [rememberMe, setRememberMe] = useState(false);
-
-  const handleLogin = (e) => {
-    e.preventDefault();
-    // TODO: Implement your login logic here
-    console.log('Login details:', { email, password, rememberMe });
-  };
+function History() {
+  // Replace these placeholders with actual historical facts and details!
+  const historyDetails = [
+    {
+      title: 'Construction Beginnings',
+      date: '1914',
+      description: 'A short description about how the monument construction began...'
+    },
+    {
+      title: 'Inauguration',
+      date: '1922',
+      description: 'Key facts about the dedication ceremony, important guests, etc.'
+    },
+    {
+      title: 'Notable Renovations',
+      date: '1960s - Present',
+      description: 'Any major renovations, restorations, or improvements over time...'
+    }
+  ];
 
   return (
-    <div style={{ margin: '50px' }}>
-      <h2>Login</h2>
-      <form onSubmit={handleLogin}>
-        <div style={{ marginBottom: '10px' }}>
-          <label htmlFor="email">Email:</label><br />
-          <input
-            id="email"
-            type="email"
-            placeholder="Enter your email"
-            value={email}
-            onChange={(e) => setEmail(e.target.value)}
-            required
-            style={{ width: '200px' }}
-          />
-        </div>
-        
-        <div style={{ marginBottom: '10px' }}>
-          <label htmlFor="password">Password:</label><br />
-          <input
-            id="password"
-            type="password"
-            placeholder="Enter your password"
-            value={password}
-            onChange={(e) => setPassword(e.target.value)}
-            required
-            style={{ width: '200px' }}
-          />
-        </div>
-        
-        <div style={{ marginBottom: '10px' }}>
-          <label htmlFor="rememberMe">
-            <input
-              id="rememberMe"
-              type="checkbox"
-              checked={rememberMe}
-              onChange={() => setRememberMe(!rememberMe)}
-            />
-            {' '}Remember Me
-          </label>
-        </div>
-        
-        <button type="submit">Sign In</button>
-      </form>
+    <div className="history-container">
+      {/* Hero banner or header section */}
+      <header className="history-hero">
+        <h1>Lincoln Monument: History</h1>
+        <p>Learn about the origins and evolution of this iconic monument.</p>
+      </header>
+      
+      {/* Main content area */}
+      <section className="history-content">
+        <h2>Key Milestones</h2>
+        <ul className="history-timeline">
+          {historyDetails.map((event, index) => (
+            <li key={index} className="timeline-event">
+              <h3>{event.title}</h3>
+              <p className="event-date">{event.date}</p>
+              <p className="event-description">{event.description}</p>
+            </li>
+          ))}
+        </ul>
+      </section>
 
-      <hr />
-
-      <p>Don’t have an account?</p>
-      <Link to="/register">Sign up</Link>
+      {/* Additional Section: Historical Significance */}
+      <section className="historical-significance">
+        <h2>Why It Matters</h2>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur a augue a metus accumsan 
+          condimentum. Praesent vel dolor eu dolor fermentum lobortis. In blandit aliquam diam a semper.
+        </p>
+      </section>
     </div>
   );
 }
-
-};
-
-
 
 export default History;

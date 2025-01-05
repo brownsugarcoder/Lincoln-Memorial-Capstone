@@ -1,0 +1,99 @@
+/* -------------- */
+/* History Layout */
+/* -------------- */
+.history-container {
+    display: flex;
+    flex-direction: column;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 1rem;
+    font-family: 'Helvetica', 'Arial', sans-serif;
+    color: #333;
+  }
+  
+  /* -------------- */
+  /* Hero Section   */
+  /* -------------- */
+  .history-hero {
+    background-image: url('https://via.placeholder.com/1920x600'); /* Replace with your desired hero image */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 4rem 2rem;
+    text-align: center;
+    color: #fff;
+  }
+  
+  .history-hero h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+  }
+  
+  .history-hero p {
+    font-size: 1.2rem;
+    max-width: 700px;
+    margin: 0 auto;
+  }
+  
+  /* -------------- */
+  /* Content        */
+  /* -------------- */
+  .history-content {
+    margin-top: 2rem;
+  }
+  
+  .history-content h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  /* -------------- */
+  /* Timeline       */
+  /* -------------- */
+  .history-timeline {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .timeline-event {
+    margin-bottom: 1rem;
+    padding: 1rem;
+    border-left: 4px solid #555;
+    background-color: #f9f9f9;
+    border-radius: 4px;
+  }
+  
+  .timeline-event h3 {
+    margin: 0 0 0.5rem 0;
+    font-size: 1.4rem;
+  }
+  
+  .event-date {
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+  }
+  
+  .event-description {
+    margin: 0;
+  }
+  
+  /* -------------- */
+  /* Significance   */
+  /* -------------- */
+  .historical-significance {
+    margin-top: 2rem;
+    padding: 1rem;
+    background-color: #f1f1f1;
+  }
+  
+  .historical-significance h2 {
+    margin-top: 0;
+    font-size: 1.8rem;
+  }
+  
+  .historical-significance p {
+    margin: 0.5rem 0 0;
+    line-height: 1.6;
+  }
+  
