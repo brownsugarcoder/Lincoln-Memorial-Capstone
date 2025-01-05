@@ -7,6 +7,7 @@ const Navbar = () => {
   const navigate = useNavigate();
 
   const handleClick = () => {
+    console.log('Log In button clicked!');
     // Navigate to the Login page
     navigate('/login');
   };
