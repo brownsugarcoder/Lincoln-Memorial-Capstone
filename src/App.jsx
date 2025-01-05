@@ -7,6 +7,7 @@ import History from '../pages/History';
 import Explore from '../pages/Explore';
 import Navbar from '../components/Navbar';
 import Trips from '../components/Trips';
+import 'remixicon/fonts/remixicon.css';
 import Toggle from '../components/Toggle';
 
 
