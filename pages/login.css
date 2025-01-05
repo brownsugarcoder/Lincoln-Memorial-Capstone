@@ -3,32 +3,48 @@
     font-family: Arial, sans-serif;
     background: #f4f4f4;
   }
+
+  .background-container {
+    min-height: 100vh;
+    background-image: linear-gradient(rgba(122, 130, 140, 0.8),rgba(2, 2, 56, 0.8)), url(liconln.png);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+  }
+
+
   .login-wrapper {
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 100vh;
-  }
+    background:rgba(76, 76, 108, 0.8);
+    width: 90%; 
+    max-width: 400px;  
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 40px 50px 50px;
+  
+}
 
   h2{
-    font-weight: 300;
+    font-weight: 800;
+    font-size: 30px;
     text-align: center;
+    color: #ccc;
   }
-  /* Container for the form */
+  /*  
   .container {
-    width: 400px;
     margin: 50px auto;
     padding: 30px 40px;
     background: #fff;
     border-radius: 8px;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
   }
-  
-  .container h2 {
-    margin-bottom: 20px;
-    text-align: center;
-  }
-  
+  */
+
+
   /* Form fields */
   form {
     display: flex;
@@ -74,7 +90,7 @@
   
   /* Horizontal line separator */
   hr {
-    margin: 30px 0;
+    margin: 20px 0;
   }
   
   /* Text & link styles */
