@@ -14,6 +14,7 @@ function Login() {
   };
 
   return (
+   <div className='login-wrapper'>
     <div style={{ margin: '50px' }}>
       <h2>Login</h2>
       <form onSubmit={handleLogin}>
@@ -63,6 +64,7 @@ function Login() {
       <p>Don’t have an account?</p>
       <Link to="/register">Sign up</Link>
     </div>
+    </div> 
   );
 }
 
