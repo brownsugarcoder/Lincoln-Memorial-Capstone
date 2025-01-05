@@ -13,35 +13,24 @@
     margin: 0 auto;
     padding: 10rem;
     max-width: 1200px;
-   
-  }
-  
-  .hero-section {
-    
-    gap: 1.5vw;
-
-    animation: fadeIn 3s;
-    bottom: 10%;
-    left: 6vw;
+    color: #fff;
     position: relative;
     text-align: center;
-    color: white;
-    margin-bottom: 2rem;
-    
+   
   }
   
   .hero-text h1 {
    font-weight: 700;
    text-align: center;
-  margin-top: -10%;
+    margin-top: -10%;
    color: white;
-   font-size: 3.5rem;
-   left: 6vw;
-   
+   font-size: 3.8rem;
+
+
   }
 
   .fade-in-keyframes {
-    animation: fadeIn 2.5s ease-in forwards;
+    animation: fadeIn 2.s ease-in forwards;
     /* 2s = duration, ease-in = timing function, forwards = stay at opacity:1 */
   }
   

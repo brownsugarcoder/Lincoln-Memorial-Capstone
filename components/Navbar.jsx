@@ -1,9 +1,16 @@
 import React from 'react'
 import './Navbar.css'
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 
 
 const Navbar = () => {
+  const navigate = useNavigate();
+
+  const handleClick = () => {
+    // Navigate to the Login page
+    navigate('/login');
+  };
+
   return (
     <nav className="navbar">
       <div className="navbar-menu">
@@ -14,7 +21,7 @@ const Navbar = () => {
           <li><Link to="/plantrip">Plan Trip</Link></li>
           <li><a href="#Sample">Sample</a></li>
         </ul>
-        <button>Log In</button>
+        <button onClick={handleClick}>Log In</button>
       </div>
     </nav>
   );
