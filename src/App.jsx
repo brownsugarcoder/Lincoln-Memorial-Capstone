@@ -6,6 +6,7 @@ import Login from '../pages/Login';
 import History from '../pages/History';
 import Explore from '../pages/Explore';
 import Navbar from '../components/Navbar';
+import Trips from '../components/Trips';
 import Toggle from '../components/Toggle';
 
 
@@ -22,7 +23,7 @@ function App () {
         <Route path="/plantrip" element={<PlanTrip />} />
         <Route path="/login" element={<Login />} />
         </Routes>
-       
+       <Trips/ >
     </Router>
 
     

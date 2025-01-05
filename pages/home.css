@@ -5,7 +5,7 @@
 
 
 .home-page {
-    background: url('/liconln.png')  no-repeat;
+    background: url('/lincoln2.jpg')  no-repeat;
     height: 480px;
     margin: 20px auto;
     font-family: sans-serif;
@@ -14,7 +14,7 @@
     padding: 10rem;
     padding: 80px 8%;
     max-width: 2000px;
-    color: #fff;
+  
     background-position: center;
     background-size: cover;
     position: relative;
