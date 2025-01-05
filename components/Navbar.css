@@ -1,8 +1,15 @@
 .navbar {
+  width: -90%;
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 1rem;
+  margin-top: 3%;
+  margin-left: 5%;
+  margin-right: 5%;
+  border: 1px solid #1e1e1e;
+  border-radius: 12px;
+  box-shadow: 0 0 5px;
   /*background-color: #bcd0e5; */
   opacity: 90;
   height: 20px;
@@ -28,7 +35,7 @@
 .navbar-menu button {
   margin-left: auto; 
   padding: 0.5rem 1rem;
-  background-color: #007bff;
+  background-color: hsla(211, 84%, 27%, 0.694);
   color: white;
   border: none;
   border-radius: 5px;
