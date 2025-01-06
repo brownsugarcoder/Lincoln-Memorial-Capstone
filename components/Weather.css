@@ -1,0 +1,33 @@
+/* src/components/Weather.css */
+
+.weather-container {
+    display: flex;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    color: hsla(211, 84%, 27%, 0.694);
+    font-style: italic;
+    gap: 10px;
+  }
+  
+  .weather-details {
+    display: flex;
+    align-items: center;
+    gap: 2px;
+  }
+  
+  .weather-details p {
+    margin: 0;
+    font-size: 0.9em;
+    color: #6a3535; /* White text for better contrast in navbar */
+  }
+  
+  .weather-details img {
+    width: 30px;
+    height: 30px;
+  }
+  
+  .location-form {
+    display: none; /* Hide the form in the navbar for a cleaner look */
+  }
+  
+  

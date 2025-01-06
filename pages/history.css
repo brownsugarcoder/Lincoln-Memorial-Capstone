@@ -1,99 +1,134 @@
-/* -------------- */
-/* History Layout */
-/* -------------- */
 .history-container {
-    display: flex;
-    flex-direction: column;
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 1rem;
-    font-family: 'Helvetica', 'Arial', sans-serif;
-    color: #333;
-  }
+  display: flex;
+  flex-direction: column;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 1rem;
+  font-family: 'Helvetica', 'Arial', sans-serif;
+  color: #333;
+}
+
+/* -------------- */
+/* Hero Section   */
+/* -------------- */
+.history-hero {
+  background-image: url('/cherry.jpg'); /* Replace with your desired hero image */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 4rem 2rem;
+  text-align: center;
+  color: #fff;
+}
+
+.history-hero h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.history-hero p {
+  font-size: 1.2rem;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+/* -------------- */
+/* Content        */
+/* -------------- */
+.history-content {
+  margin-top: 2rem;
+}
+
+.history-content h2 {
+  font-size: 3rem;
+  margin-bottom: 1.2rem;
+  color: pink
+}
+
+/* -------------- */
+/* Timeline       */
+/* -------------- */
+.history-timeline {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  font-size: 20px;
   
-  /* -------------- */
-  /* Hero Section   */
-  /* -------------- */
-  .history-hero {
-    background-image: url('https://via.placeholder.com/1920x600'); /* Replace with your desired hero image */
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    padding: 4rem 2rem;
-    text-align: center;
-    color: #fff;
-  }
+}
+
+.timeline-event {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 2rem;
+  background-color: rgb(147, 147, 205);
+  border: 1px solid;
   
-  .history-hero h1 {
-    font-size: 3rem;
-    margin-bottom: 1rem;
-  }
+  overflow: hidden;
+}
+
+.event-image {
+  width: 300px;
+  height: auto;
+  object-fit: cover;
+}
+
+.event-details {
+  padding: 1rem;
+  flex: 1;
+}
+
+.event-details h3 {
+  margin: 0 0 0.5rem 0;
+  font-size: 1.6rem;
+}
+
+.event-date {
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  color: #666;
+}
+
+.event-description {
+  margin: 0;
+  line-height: 1.6;
+}
+
+/* -------------- */
+/* Significance   */
+/* -------------- */
+.historical-significance {
+  margin-top: 2rem;
+  padding: 1rem;
+  background-color: rgb(147, 147, 205);
+  backdrop-filter: blur(10px);
+}
+
+.historical-significance h2 {
+  padding-top: 10px;
+  font-size: 1.8rem;
+}
+
+.historical-significance p {
+  margin-top: 10px;
+  margin: 0.15rem 0 0;
+  line-height: 1.6;
   
-  .history-hero p {
-    font-size: 1.2rem;
-    max-width: 700px;
-    margin: 0 auto;
-  }
-  
-  /* -------------- */
-  /* Content        */
-  /* -------------- */
-  .history-content {
-    margin-top: 2rem;
-  }
-  
-  .history-content h2 {
-    font-size: 2rem;
-    margin-bottom: 1rem;
-  }
-  
-  /* -------------- */
-  /* Timeline       */
-  /* -------------- */
-  .history-timeline {
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-  }
-  
+}
+
+.historical-significance h2{
+  font-size: 40px;
+  color: pink;
+}
+
+/* -------------- */
+/* Responsive Design */
+/* -------------- */
+@media (max-width: 768px) {
   .timeline-event {
-    margin-bottom: 1rem;
-    padding: 1rem;
-    border-left: 4px solid #555;
-    background-color: #f9f9f9;
-    border-radius: 4px;
+    flex-direction: column;
   }
-  
-  .timeline-event h3 {
-    margin: 0 0 0.5rem 0;
-    font-size: 1.4rem;
+
+  .event-image {
+    width: 100%;
   }
-  
-  .event-date {
-    font-weight: bold;
-    margin-bottom: 0.5rem;
-  }
-  
-  .event-description {
-    margin: 0;
-  }
-  
-  /* -------------- */
-  /* Significance   */
-  /* -------------- */
-  .historical-significance {
-    margin-top: 2rem;
-    padding: 1rem;
-    background-color: #f1f1f1;
-  }
-  
-  .historical-significance h2 {
-    margin-top: 0;
-    font-size: 1.8rem;
-  }
-  
-  .historical-significance p {
-    margin: 0.5rem 0 0;
-    line-height: 1.6;
-  }
-  
+}

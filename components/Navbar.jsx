@@ -1,7 +1,7 @@
 import React from 'react'
 import './Navbar.css'
 import { Link, useNavigate } from 'react-router-dom';
-
+import Weather from './Weather';
 
 const Navbar = () => {
   const navigate = useNavigate();
@@ -23,8 +23,14 @@ const Navbar = () => {
           <li><a href="#Sample">Sample</a></li>
         </ul>
         <button onClick={handleClick}>Log In</button>
+        <div className='weather'>
+        <Weather /> {/* Integrating the Weather component */}
+
       </div>
+      </div>
+     
     </nav>
+    
   );
 };
 
