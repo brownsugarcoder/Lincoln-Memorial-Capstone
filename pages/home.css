@@ -1,4 +1,25 @@
+.bebas-neue-regular {
+  font-family: "Bebas Neue", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.instrument-serif-regular {
+  font-family: "Instrument Serif", serif;
+  font-weight: 400;
+  font-style: normal;
+}
 
+.instrument-serif-regular-italic {
+  font-family: "Instrument Serif", serif;
+  font-weight: 400;
+  font-style: italic;
+}
+.playfair-display {
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+}
 
 .home-page {
     background: url('/lincoln2.jpg')  no-repeat;
@@ -50,13 +71,16 @@
 }
 
 .hero-text h1 {
-  font-size: 6em;
+  font-size: 8em;
   margin-bottom: 20px;
+  font-family: "Bebas Neue", serif;
 }
 
 .hero-text p {
   font-size: 1.2em;
-  color: #555;
+  color: #ffffff;
+  font-family: "Playfair Display", serif;
+  font-weight: 400;
 }
 
 .intro-section {
@@ -70,7 +94,7 @@
 }
 
 .trips-wrapper h2 {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: "Bebas Neue", serif;
   margin-bottom: 20px; /* Increased spacing for clarity */
   color: blue;
 }
@@ -100,9 +124,10 @@
 
 
 .trip-content h3 {
+  font-family: "Playfair Display", serif;
   margin: 10px 0;
-  font-size: 1.5em;
-  color: blue;
+  font-size: 1.3em;
+  color: rgb(58, 58, 97);
 }
 
 .trip-content p {

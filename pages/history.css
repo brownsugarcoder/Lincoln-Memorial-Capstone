@@ -1,6 +1,4 @@
-*{
-  
-}
+
 
 .history-container {
   display: flex;
@@ -25,12 +23,14 @@
 }
 
 .history-hero h1 {
-  font-size: 3rem;
+  font-family: "Bebas Neue", serif;
+  font-size: 5rem;
   margin-bottom: 1rem;
   color: pink;
 }
 
 .history-hero p {
+  font-family: ;
   font-size: 1.2rem;
   max-width: 700px;
   margin: 10 auto;
@@ -42,12 +42,14 @@
 /* -------------- */
 .history-content {
   margin-top: 2rem;
+  
 }
 
 .history-content h2 {
-  font-size: 3rem;
+  font-size: 3.5rem;
   margin-bottom: 1.2rem;
-  color: pink
+  color: rgb(67, 13, 22);
+  font-family: "Bebas Neue", serif;
 }
 /* -------------- */
 /* Timeline       */
