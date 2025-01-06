@@ -26,13 +26,11 @@
   }
   
   .hero-text h1 {
-   font-size: 80px;
+   font-size: 120px;
    text-align: center;
   margin-top: 80px;
-   color: white;
+   color: rgb(152, 43, 43);
    
-   
-
 
   }
 
@@ -42,6 +40,82 @@
   }
   
   
-  
+  /* src/components/home.css */
+
+.home-page {
+  font-family: Arial, sans-serif;
+}
+
+
+.hero-text {
+  text-align: center;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.hero-text h1 {
+  font-size: 6em;
+  margin-bottom: 20px;
+}
+
+.hero-text p {
+  font-size: 1.2em;
+  color: #555;
+}
+
+.intro-section {
+  padding: 160px;
+  /* Add your intro section styles here */
+}
+
+.trips-wrapper {
+ 
+  padding: 40px 20px; 
+}
+
+.trips-wrapper h2 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 2em;
+  margin-bottom: 0px;
+  color: blue;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0px;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+}
+
+.trip-image {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+}
+
+.trip-content {
+  padding: 15px;
+}
+
+.trip-content h3 {
+  margin: 10px 0;
+  font-size: 1.2em;
+  color: blue;
+}
+
+.trip-content p {
+  color: #555;
+  font-size: 0.9em;
+}
+
+.rating i {
+  color: #f8e825; /* Gold color for stars */
+  margin-right: 2px;
+}
+
   
   

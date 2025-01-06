@@ -73,9 +73,7 @@ function PlanATrip() {
       </header>
 
       <section className="plan-trip-content">
-        {/* ------------- */}
-        {/* Add/Edit Form */}
-        {/* ------------- */}
+       
         <div className="trip-form-wrapper">
           <h2>{editIndex !== null ? 'Edit Trip' : 'Add a New Trip'}</h2>
           <form onSubmit={handleSubmit} className="trip-form">
@@ -119,9 +117,7 @@ function PlanATrip() {
           </form>
         </div>
 
-        {/* ----------------- */}
-        {/* Display Trip List */}
-        {/* ----------------- */}
+        
         <div className="trip-list-wrapper">
           <h2>Your Trip Plans</h2>
           {tripList.length === 0 ? (

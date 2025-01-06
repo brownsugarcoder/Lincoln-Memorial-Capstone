@@ -19,7 +19,7 @@ export const Trips = () => {
               <i className="ri-star-fill"></i>
               <i className="ri-star-half-fill"></i>
             </div>
-            <h3> Lincoln Memorial</h3>
+            <h3> Lincoln Memorial Walking Tour</h3>
           </div>
         </div>
       </div>

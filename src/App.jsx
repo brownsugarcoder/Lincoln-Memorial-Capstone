@@ -24,7 +24,7 @@ function App () {
         <Route path="/plantrip" element={<PlanTrip />} />
         <Route path="/login" element={<Login />} />
         </Routes>
-       <Trips/ >
+       
     </Router>
 
     
