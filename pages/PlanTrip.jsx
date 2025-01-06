@@ -2,10 +2,7 @@ import React, { useState } from 'react';
 import './PlanTrip.css';
 
 function PlanATrip() {
-  // -----------
-  // State Setup
-  // -----------
-  // tripList holds all trips
+  
   // formData holds the input values for a new or edited trip
   // editIndex is the index of the trip currently being edited (null if not editing)
   const [tripList, setTripList] = useState([]);

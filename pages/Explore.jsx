@@ -39,7 +39,7 @@ function Explore() {
   return (
     <div className="background-container">
       <div className="explore-wrapper">
-        <h1>Explore Washington DC</h1>
+        <h1>Explore Washington DC Food Destinations</h1>
         <p>Discover attractions, tours, and experiences in the heart of Washington, D.C.</p>
         
         <div className="explore-card-container">

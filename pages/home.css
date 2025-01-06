@@ -75,8 +75,7 @@
 
 .trips-wrapper h2 {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size: 2em;
-  margin-bottom: 0px;
+  margin-bottom: 20px; /* Increased spacing for clarity */
   color: blue;
 }
 
@@ -84,8 +83,10 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 0px;
+ 
 }
+
+
 
 .card:hover {
   transform: translateY(-10px);
@@ -93,17 +94,18 @@
 
 .trip-image {
   width: 100%;
-  height: 150px;
+  height: 250px;
   object-fit: cover;
 }
-
 .trip-content {
   padding: 15px;
+  
 }
+
 
 .trip-content h3 {
   margin: 10px 0;
-  font-size: 1.2em;
+  font-size: 1.5em;
   color: blue;
 }
 
@@ -117,5 +119,46 @@
   margin-right: 2px;
 }
 
-  
-  
+.booking {
+  background-color: #ff5722; /* Vibrant color for visibility */
+  color: #fff;
+  border: none;
+  padding: 8px 20px;
+  font-size: 1em;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.booking:hover {
+  background-color: #e64a19; /* Darker shade on hover */
+}
+.pickup-info {
+  display: flex;
+  align-items: center;
+  margin-top: 15px; /* Space above pickup info */
+  font-size: 0.95em;
+  color: #555;
+}
+
+.pickup-info i {
+  margin-right: 5px;
+  color: #ff5722; /* Consistent color with the booking button */
+}
+
+
+/* Pricing Section */
+.pricing {
+  display: flex;
+  flex-direction: column; /* Stack price and button vertically */
+  align-items: center; /* Align items to the start (left) */
+  margin-top: 2px; /* Add some spacing above the pricing section */
+}
+
+/* Price Styling */
+.price {
+  font-size: 1.5em;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 10px; /* Space between price and button */
+}

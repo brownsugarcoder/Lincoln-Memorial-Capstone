@@ -50,7 +50,7 @@ const Home = () => {
                   
                   {/* Card 2 */}
                   <div className="card">
-                      <img src="/monument1.jpg" alt="Evening Tour" className="trip-image" />
+                      <img src="/liconln.png" alt="Evening Tour" className="trip-image" />
                       <div className="trip-content">
                           <h3>Evening Tour</h3>
                           <p>Enjoy a serene evening exploring the illuminated Lincoln Memorial.</p>
@@ -61,12 +61,21 @@ const Home = () => {
                               <i className="ri-star-fill"></i>
                               <i className="ri-star-half-fill"></i>
                           </div>
-                      </div>
-                  </div>
-                  
+                          <div className="pricing"> 
+                <span className="price">$25.99</span>
+                <button className="booking">Book Now</button>
+                <div className="pickup-info">
+                  <i className="ri-ticket-line"></i>
+                  <span>Pick Up At</span>
+                  <i className="ri-map-pin-line"></i>
+                  <span> Obama Ave. SW</span>
+                </div>
+              </div>
+            </div>
+          </div>
                   {/* Card 3 */}
                   <div className="card">
-                      <img src="/monument1.jpg" alt="Photography Tour" className="trip-image" />
+                      <img src="/lincoln2.jpg" alt="Photography Tour" className="trip-image" />
                       <div className="trip-content">
                           <h3>Photography Tour</h3>
                           <p>Capture stunning photos of the Lincoln Memorial and its surroundings.</p>
@@ -76,28 +85,42 @@ const Home = () => {
                               <i className="ri-star-fill"></i>
                               <i className="ri-star-half-fill"></i>
                           </div>
-                      </div>
-                  </div>
-                  
+                       <div className="pricing"> 
+                <span className="price">$25.99</span>
+                <button className="booking">Book Now</button>
+                <div className="pickup-info">
+                  <i className="ri-ticket-line"></i>
+                  <span>Pick Up At</span>
+                  <i className="ri-map-pin-line"></i>
+                  <span> Obama Ave. SW</span>
+                </div>
+              </div>
+            </div>
+          </div>
                   {/* Card 4 */}
                   <div className="card">
-                      <img src="/monument1.jpg" alt="Guided Tour" className="trip-image" />
-                      <div className="trip-content">
-                          <h3>Guided Tour</h3>
-                          <p>Join our expert guides to learn more about the history of the Lincoln Memorial.</p>
-                          <div className="rating">
-                              <i className="ri-star-fill"></i>
-                              <i className="ri-star-fill"></i>
-                              <i className="ri-star-fill"></i>
-                              <i className="ri-star-fill"></i>
-                              <i className="ri-star-half-fill"></i>
-                          </div>
-                          <span> <i class="ri-calendar-line"></i> 
-                          <i class="ri-map-pin-line"> Obama Ave. SW</i>
-                      
-                          </span>
-                      </div>
-                  </div> 
+            <img src="/monument1.jpg" alt="Lincoln Memorial Walking Tour" className="trip-image" />
+            <div className="trip-content">
+              <h3>Lincoln Memorial Walking Tour</h3>
+              <p>Explore the rich history and architectural beauty of the Lincoln Memorial.</p>
+              <div className="rating">
+                <i className="ri-star-fill"></i>
+                <i className="ri-star-fill"></i>
+                <i className="ri-star-fill"></i>
+                <i className="ri-star-half-fill"></i>
+              </div>
+              <div className="pricing"> 
+                <span className="price">$25.99</span>
+                <button className="booking">Book Now</button>
+                <div className="pickup-info">
+                  <i className="ri-ticket-line"></i>
+                  <span>Pick Up At</span>
+                  <i className="ri-map-pin-line"></i>
+                  <span> Obama Ave. SW</span>
+                </div>
+              </div>
+            </div>
+          </div>
                    {/* Card 5 */}
                    <div className="card">
                       <img src="/monument1.jpg" alt="Guided Tour" className="trip-image" />
@@ -118,6 +141,8 @@ const Home = () => {
                       </div>
                   </div> 
               </div>
+
+              
           </section>
       </main>
   );
