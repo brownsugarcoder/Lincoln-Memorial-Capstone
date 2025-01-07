@@ -6,12 +6,14 @@ const Home = () => {
   return (
       <main className="home-page">
           {/* Hero Section */}
+          <div className="hero-section">
           <section className="fade-in-keyframes">
               <div className="hero-text">
                   <h1>Washington D.C</h1>
                   <p>Discover one of America’s most iconic landmarks and its rich history.</p>
               </div>
           </section>
+          </div>
           
           {/* Intro Section */}
           <section className="intro-section">
@@ -19,7 +21,7 @@ const Home = () => {
           </section>
           
           {/* Popular Trips Section */}
-          <section className="trips-wrapper section">
+        <section className="trips-wrapper section">
         <h2>Popular Trips</h2>
         <div className="cards">
           {/* Card 1 */}

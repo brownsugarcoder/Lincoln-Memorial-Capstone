@@ -1,3 +1,6 @@
+*{
+  
+}
 .bebas-neue-regular {
   font-family: "Bebas Neue", serif;
   font-weight: 400;
@@ -32,14 +35,19 @@
     padding: 80px 8%;
     max-width: 2000px;
   
+  
     background-position: center;
     background-size: cover;
-    position: relative;
-    text-align: center;
+    
     margin-top: 1%;
     margin-left: 5%;
     margin-right: 5%;
    
+  }
+
+  .hero-section{
+
+    
   }
   
   .hero-text h1 {
@@ -74,6 +82,7 @@
   font-size: 8em;
   margin-bottom: 20px;
   font-family: "Bebas Neue", serif;
+  
 }
 
 .hero-text p {
@@ -88,15 +97,18 @@
   /* Add your intro section styles here */
 }
 
-.trips-wrapper {
- 
+.trips-wrapper section {
   padding: 40px 20px; 
+  color: rgb(152, 43, 43);
+
+ 
 }
 
 .trips-wrapper h2 {
   font-family: "Bebas Neue", serif;
+  font-size: 70px;
   margin-bottom: 20px; /* Increased spacing for clarity */
-  color: blue;
+  color: rgb(152, 43, 43);
 }
 
 .cards {
