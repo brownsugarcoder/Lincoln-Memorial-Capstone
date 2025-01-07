@@ -27,7 +27,7 @@ const Home = () => {
             <div className="cards">
               {/* Card 1 */}
             <div className="card">
-                <img src="/monument1.jpg" alt="Lincoln Memorial Walking Tour" className="trip-image" />
+                <img src="src/loc.jpg" alt="Lincoln Memorial Walking Tour" className="trip-image" />
                 <div className="trip-content">
                   <h3>US Capitol & Library of Congress Guided Tour with Capitol Hill</h3>
                   <p>Explore the rich history and architectural beauty of the Lincoln Memorial.</p>
@@ -53,7 +53,7 @@ const Home = () => {
                       
                       {/* Card 2 */}
                       <div className="card">
-                          <img src="/liconln.png" alt="Evening Tour" className="trip-image" />
+                          <img src="src/liconln.png" alt="Evening Tour" className="trip-image" />
                           <div className="trip-content">
                               <h3>Evening Tour</h3>
                               <p>Enjoy a serene evening exploring the illuminated Lincoln Memorial.</p>
@@ -78,7 +78,7 @@ const Home = () => {
               </div>
                       {/* Card 3 */}
                       <div className="card">
-                          <img src="/lincoln2.jpg" alt="Photography Tour" className="trip-image" />
+                          <img src="src/pt.jpg" alt="Photography Tour" className="trip-image" />
                           <div className="trip-content">
                               <h3>Photography Tour</h3>
                               <p>Capture stunning photos of the Lincoln Memorial and its surroundings.</p>
@@ -102,7 +102,7 @@ const Home = () => {
               </div>
                       {/* Card 4 */}
                       <div className="card">
-                <img src="/monument1.jpg" alt="Lincoln Memorial Walking Tour" className="trip-image" />
+                <img src="src/monument1.jpg" alt="Lincoln Memorial Walking Tour" className="trip-image" />
                 <div className="trip-content">
                   <h3>Lincoln Memorial Walking Tour</h3>
                   <p>Explore the rich history and architectural beauty of the Lincoln Memorial.</p>
@@ -126,7 +126,7 @@ const Home = () => {
               </div>
                       {/* Card 5 */}
                             <div className="card">
-                                <img src="/monument1.jpg" alt="Guided Tour" className="trip-image" />
+                                <img src="src/nightwh.jpg" alt="Guided Tour" className="trip-image" />
                                 <div className="trip-content">
                                     <h3>Private Washington DC City Tour</h3>
                                     <p>Join our expert guides to learn more about the history of the Lincoln Memorial.</p>
