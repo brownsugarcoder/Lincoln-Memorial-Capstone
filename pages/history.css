@@ -8,9 +8,7 @@
   color: #333;
 }
 
-/* -------------- */
-/* Hero Section   */
-/* -------------- */
+
 .history-hero {
   background-image: url('/cherry.jpg');
   background-size: cover;
@@ -43,9 +41,7 @@ max-width: 2500px;
   text-align: center;
 }
 
-/* -------------- */
-/* Content        */
-/* -------------- */
+
 .history-content {
   margin-top: 2rem;
   margin-bottom: 1.2rem;
@@ -58,9 +54,7 @@ max-width: 2500px;
   color: rgb(67, 13, 22);
   font-family: "Instrument Serif", serif;
 }
-/* -------------- */
-/* Timeline       */
-/* -------------- */
+
 .history-timeline {
   list-style-type: none;
   padding: 0;
@@ -110,9 +104,7 @@ max-width: 2500px;
   line-height: 1.6;
 }
 
-/* -------------- */
-/* Significance   */
-/* -------------- */
+
 .historical-significance {
   margin-top: 2rem;
   padding: 1rem;
@@ -137,9 +129,7 @@ max-width: 2500px;
   color: pink;
 }
 
-/* -------------- */
-/* Responsive Design */
-/* -------------- */
+
 @media (max-width: 768px) {
   .timeline-event {
     flex-direction: column;
