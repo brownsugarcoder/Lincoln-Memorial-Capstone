@@ -1,214 +1,204 @@
 *{
 
  
-  }
+}
 
 .bebas-neue-regular {
-  font-family: "Bebas Neue", serif;
-  font-weight: 400;
-  font-style: normal;
+font-family: "Bebas Neue", serif;
+font-weight: 400;
+font-style: normal;
 }
 .instrument-serif-regular {
-  font-family: "Instrument Serif", serif;
-  font-weight: 400;
-  font-style: normal;
+font-family: "Instrument Serif", serif;
+font-weight: 400;
+font-style: normal;
 }
 
 .instrument-serif-regular-italic {
-  font-family: "Instrument Serif", serif;
-  font-weight: 400;
-  font-style: italic;
+font-family: "Instrument Serif", serif;
+font-weight: 400;
+font-style: italic;
 }
 .playfair-display {
-  font-family: "Playfair Display", serif;
-  font-optical-sizing: auto;
-  font-weight: 800;
-  font-style: normal;
+font-family: "Playfair Display", serif;
+font-optical-sizing: auto;
+font-weight: 800;
+font-style: normal;
 }
 
 .home-page {
-   
-    margin: 0 auto;
-
-
-  }
-
-  .hero-section {
-    background: url('src/lincoln2.jpg')  no-repeat;
-    background-position: center;
-    background-size: cover;
-    margin-top: 5%;
-    margin-left: 5%;
-    margin-right: 5%;
-    height: 480px;
-    border-radius: 18px;
-    padding: 10rem;
-    padding: 80px 8%;
-    max-width: 2000px;
-    
-  }
-  
-
-  .fade-in-keyframes {
-    animation: fadeIn 2.s ease-in forwards;
-    /* 2s = duration, ease-in = timing function, forwards = stay at opacity:1 */
-  }
-  .hero-text h1 {
-  text-align: center;
-  margin-top: 80px;
-  color: rgb(152, 43, 43);
-  font-family: "Bebas Neue", serif;
-  font-size: 8em;
-  margin-bottom: 20px;
-
-  }
-  
-.hero-text {
-  text-align: center;
-  max-width: 800px;
+ 
   margin: 0 auto;
+
+
+}
+
+.hero-section {
+  background: url('src/lincoln2.jpg')  no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin-top: 5%;
+  margin-left: 5%;
+  margin-right: 5%;
+  height: 480px;
+  border-radius: 18px;
+  padding: 10rem;
+  padding: 80px 8%;
+  max-width: 2000px;
+  
+}
+
+
+.fade-in-keyframes {
+  animation: fadeIn 2.s ease-in forwards;
+ 
+}
+.hero-text h1 {
+text-align: center;
+margin-top: 80px;
+color: rgb(152, 43, 43);
+font-family: "Bebas Neue", serif;
+font-size: 8em;
+margin-bottom: 20px;
+
+}
+
+.hero-text {
+text-align: center;
+max-width: 800px;
+margin: 0 auto;
 }
 
 .hero-text p {
-  font-size: 1.2em;
-  color: #ffffff;
-  font-family: "Playfair Display", serif;
-  font-weight: 400;
+font-size: 1.2em;
+color: #ffffff;
+font-family: "Playfair Display", serif;
+font-weight: 400;
 }
 
 .intro-section {
-  padding: 40px;
- 
-  /* Add your intro section styles here */
+padding: 40px;
+
 }
 
 .bus-icon{
-  width: 40px;
-  
-  position: absolute;
-  left: -100px; /* Start off-screen to the left */
-  width: 70px; /* Adjust size as needed */
-  height: auto;
-  transform: translateY(-50%); /* Adjust for vertical centering */
-  animation: moveBus 10s linear infinite;
+width: 40px;
+
+position: absolute;
+left: -100px; 
+width: 70px; 
+height: auto;
+transform: translateY(-50%); 
+animation: moveBus 10s linear infinite;
 }
 
 @keyframes moveBus {
-  0% {
-      left: -100px; /* Starting position off-screen */
-  }
-  100% {
-      left: 100%; /* Move to the far right */
-  }
+0% {
+    left: -100px; 
+}
+100% {
+    left: 100%; 
+}
 }
 
-/*
-.trips-wrapper.section {
-  padding: 0px 20px; 
-  color: rgb(152, 43, 43);
-
-}
-*/
 
 .trips-wrapper h2 {
-  font-family: "Bebas Neue", serif;
-  font-size: 70px;
-  margin-bottom: 20px; 
-  color: rgb(152, 43, 43);
+font-family: "Bebas Neue", serif;
+font-size: 70px;
+margin-bottom: 20px; 
+color: rgb(152, 43, 43);
 }
 
 .cards {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
- 
-}
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
 
+}
 
 
 .card:hover {
-  transform: translateY(-10px);
+transform: translateY(-10px);
 }
 
 .trip-image {
-  width: 100%;
-  height: 250px;
-  object-fit: cover;
+width: 100%;
+height: 250px;
+object-fit: cover;
 }
 .trip-content {
-  padding: 15px;
-  
+padding: 15px;
+
 }
 
 
 .trip-content h3 {
-  font-family: "Playfair Display", serif;
-  margin: 10px 0;
-  font-size: 1.3em;
-  color: rgb(58, 58, 97);
+font-family: "Playfair Display", serif;
+margin: 10px 0;
+font-size: 1.3em;
+color: rgb(58, 58, 97);
 }
 
 .trip-content p {
-  color: #555;
-  font-size: 0.9em;
+color: #555;
+font-size: 0.9em;
 }
 
 .rating  {
-  color: #f8e825; /* Gold color for stars */
-  margin-right: 2px;
-  align-items: center;
-  display: flex;
+color: #f8e825; 
+margin-right: 2px;
+align-items: center;
+display: flex;
 }
 
 .booking {
-  background-color: #ff5722; 
-  color: #fff;
-  border: none;
-  padding: 8px 20px;
-  font-size: 1em;
-  border-radius: 5px;
-  cursor: pointer;
-  transition: background-color 0.4s ease;
+background-color: #ff5722; 
+color: #fff;
+border: none;
+padding: 8px 20px;
+font-size: 1em;
+border-radius: 5px;
+cursor: pointer;
+transition: background-color 0.4s ease;
 }
 
 .booking:hover {
-  background-color: #e64a19; 
+background-color: #e64a19; 
 }
 .pickup-info {
-  display: flex;
-  align-items: center;
-  margin-top: 15px; 
-  font-size: 0.95em;
-  color: #555;
+display: flex;
+align-items: center;
+margin-top: 15px; 
+font-size: 0.95em;
+color: #555;
 }
 
 .pickup-info i {
-  margin-right: 5px;
-  color: #ff5722; 
+margin-right: 5px;
+color: #ff5722; 
 }
 
 
-/* Pricing Section */
 .pricing {
-  display: flex;
-  flex-direction: column; /* Stack price and button vertically */
-  align-items: center; /* Align items to the start (left) */
-  margin-top: 2px; /* Add some spacing above the pricing section */
+display: flex;
+flex-direction: column; 
+align-items: center; 
+margin-top: 2px; 
 }
 
 
 .price {
-  font-size: 1.5em;
-  font-weight: bold;
-  color: #333;
-  margin-bottom: 10px; 
+font-size: 1.5em;
+font-weight: bold;
+color: #333;
+margin-bottom: 10px; 
 }
-/* Keyframes for Fade-In Animation */
+
 @keyframes fadeIn {
-  from { opacity: 0; }
-  to { opacity: 1; }
+from { opacity: 0; }
+to { opacity: 1; }
 }
 
 .fade-in-keyframes{
-  animation: fadeIn 2s ease-in forwards;
+animation: fadeIn 2s ease-in forwards;
 }
