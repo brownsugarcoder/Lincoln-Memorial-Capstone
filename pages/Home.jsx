@@ -17,8 +17,10 @@ const Home = () => {
               
               {/* Intro Section */}
           <section className="intro-section">
-          <h1>Washington D.C</h1>
-          <p>Discover one of America’s most iconic landmarks and its rich history.</p>
+            <h1></h1>
+            <p></p>
+            <img src="src/bus.png" alt="bus icon" className="bus-icon" />
+
           </section>
               
               {/* Popular Trips Section */}
@@ -41,10 +43,8 @@ const Home = () => {
                     <span className="price">$85.99</span>
                     <button className="booking">Book Now</button>
                     <div className="pickup-info">
-                      <i className="ri-ticket-line"></i>
-                      <span>Pick Up At</span>
                       <i className="ri-map-pin-line"></i>
-                      <span> Obama Ave. SW</span>
+                      <span> Pick Up At Obama Ave. SW</span>
                     </div>
                   </div>
                 </div>
@@ -68,10 +68,8 @@ const Home = () => {
                     <span className="price">$25.99</span>
                     <button className="booking">Book Now</button>
                     <div className="pickup-info">
-                      <i className="ri-ticket-line"></i>
-                      <span>Pick Up At</span>
                       <i className="ri-map-pin-line"></i>
-                      <span> Obama Ave. SW</span>
+                      <span> Pick Up At Obama Ave. SW</span>
                     </div>
                   </div>
                 </div>
@@ -92,10 +90,8 @@ const Home = () => {
                     <span className="price">$55.99</span>
                     <button className="booking">Book Now</button>
                     <div className="pickup-info">
-                      <i className="ri-ticket-line"></i>
-                      <span>Pick Up At</span>
                       <i className="ri-map-pin-line"></i>
-                      <span> Obama Ave. SW</span>
+                      <span> Tour Begins At Monumental Dr. </span>
                     </div>
                   </div>
                 </div>
@@ -116,10 +112,8 @@ const Home = () => {
                     <span className="price">$35.99</span>
                     <button className="booking">Book Now</button>
                     <div className="pickup-info">
-                      <i className="ri-ticket-line"></i>
-                      <span>Pick Up At</span>
                       <i className="ri-map-pin-line"></i>
-                      <span> Obama Ave. SW</span>
+                      <span> Pick Up At Cherry Hill</span>
                     </div>
                   </div>
                 </div>
@@ -141,10 +135,8 @@ const Home = () => {
                                         <span className="price">$350.99</span>
                                         <button className="booking">Book Now</button>
                                         <div className="pickup-info">
-                                          <i className="ri-ticket-line"></i>
-                                          <span>Pick Up At</span>
                                           <i className="ri-map-pin-line"></i>
-                                          <span> Obama Ave. SW</span>
+                                          <span> Painted Daisy Dr.</span>
                                         </div>
                                       </div>
                                     </div>
