@@ -20,7 +20,7 @@ const Navbar = () => {
           <li><Link to="/about">History</Link></li>
           <li><Link to="/explore">Explore</Link></li>
           <li><Link to="/plantrip">Plan Trip</Link></li>
-          <li><a href="#Sample">Sample</a></li>
+          
         </ul>
         <button onClick={handleClick}>Log In</button>
         <div className='weather'>
