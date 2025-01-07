@@ -1,25 +1,23 @@
-/* src/components/Trips.css */
 
-/* Wrapper for the trips section */
 .trips-wrapper {
     padding: 20px;
     background-color: #f0f0f0;
   }
   
-  /* Common section styling */
+
   .section {
     margin: 20px auto;
     max-width: 1200px;
   }
   
-  /* Container for the cards */
+ 
   .cards {
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
   }
   
-  /* Individual card styling */
+ 
   .card {
     background-color: #ffffff;
     border: 1px solid #ddd;
@@ -29,21 +27,21 @@
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
   }
   
-  /* Image inside the card */
+  
   .trip-image {
     width: 100%;
     height: 200px;
     object-fit: cover;
   }
   
-  /* Content inside the card */
+ 
   .trip-content {
     padding: 15px;
   }
   
-  /* Rating stars styling */
+
   .rating i {
-    color: #ffc107; /* Gold color for stars */
+    color: #ffc107; 
     margin-right: 5px;
     font-size: 18px;
   }
