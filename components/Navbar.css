@@ -1,7 +1,6 @@
-/* src/components/Navbar.css */
 
 .navbar {
-  width: 90%; /* Corrected from -90% to 90% */
+  width: 90%; 
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -12,15 +11,15 @@
   border: 1px solid #1e1e1e;
   border-radius: 12px;
   box-shadow: 0 0 5px;
-  /*background-color: #bcd0e5; */
-  opacity: 0.9; /* Corrected opacity from 90 to 0.9 */
-  height: auto; /* Adjusted height to accommodate content */
+  background-color: #bcd0e5dc; 
+  opacity: 0.9; 
+  height: auto; 
 }
 
 .navbar-menu {
   display: flex;
   align-items: center;
-  flex-grow: 1; /* Ensures the menu takes up available space */
+  flex-grow: 1; 
 }
 
 .navbar-menu ul {
@@ -48,9 +47,8 @@
   background-color: #0056b3;
 }
 
-/* Weather Section Styling */
 .weather {
-  margin-left: 20px; /* Spacing between menu and weather */
+  margin-left: 20px; 
 }
 
 @media (max-width: 768px) {

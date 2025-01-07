@@ -56,10 +56,13 @@ function History() {
   return (
     <div className="history-container">
       {/* Hero banner or header section */}
-      <header className="history-hero">
-        <h1>Washington DC in Movies</h1>
-      </header>
-      
+      <div className="hero-sec">
+         <section className="fade-in-keyframes">
+            <header className="history-hero">
+              <h1>Washington DC in Movies</h1>
+            </header>
+          </section>
+       </div>   
       {/* Main content area */}
       <section className="history-content">
         <h2>Movies & TV Shows Featuring DC Monuments</h2>

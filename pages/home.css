@@ -49,10 +49,6 @@ font-style: normal;
 }
 
 
-.fade-in-keyframes {
-  animation: fadeIn 2.s ease-in forwards;
- 
-}
 .hero-text h1 {
 text-align: center;
 margin-top: 80px;
@@ -82,8 +78,6 @@ padding: 40px;
 }
 
 .bus-icon{
-width: 40px;
-
 position: absolute;
 left: -100px; 
 width: 70px; 

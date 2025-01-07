@@ -6,24 +6,39 @@
   margin: 0 auto;
   padding: 1rem;
   color: #333;
+  
 }
 
-
-.history-hero {
+.hero-sec {
   background-image: url('/cherry.jpg');
   background-size: cover;
   background-position: center;
-  padding: 4rem rem;
-  text-align: center;
   margin-top: 2%;
   margin-left: 5%;
   margin-right: 5%;
-  height: 300px;
   border-radius: 18px;
-  padding: 10rem;
-  padding: 80px 8%;
-max-width: 2500px;
+  max-width: 2000px;
 }
+
+.history-hero {
+  
+  padding: 4rem;
+  text-align: center;
+
+  height: 300px;
+  
+  padding: 10rem;
+  max-width: 2500px;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+  }
+  
+  .fade-in-keyframes{
+  animation: fadeIn 2s ease-in forwards;
+  }
 
 .history-hero h1 {
   font-family: "Bebas Neue", serif;
@@ -71,7 +86,7 @@ max-width: 2500px;
   display: flex;
   flex-direction: row;
   margin-bottom: 2rem;
-  background-color: rgba(147, 147, 205, 0.544);
+  background-color:#bcd0e5dc; 
   border: 1px solid;
   overflow: hidden;
 }
@@ -102,31 +117,6 @@ max-width: 2500px;
 .event-description {
   margin: 0;
   line-height: 1.6;
-}
-
-
-.historical-significance {
-  margin-top: 2rem;
-  padding: 1rem;
-  background-color: rgb(147, 147, 205);
-  backdrop-filter: blur(10px);
-}
-
-.historical-significance h2 {
-  padding-top: 10px;
-  font-size: 1.8rem;
-}
-
-.historical-significance p {
-  margin-top: 10px;
-  margin: 0.15rem 0 0;
-  line-height: 1.6;
-  
-}
-
-.historical-significance h2{
-  font-size: 40px;
-  color: pink;
 }
 
 
