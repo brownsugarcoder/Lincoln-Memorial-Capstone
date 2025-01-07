@@ -5,8 +5,8 @@
   max-width: 1200px;
   margin: 0 auto;
   padding: 1rem;
-  font-family: 'Helvetica', 'Arial', sans-serif;
-  color: #333;
+  font-weight: 400;
+  color: #ece1e1;
   display: flex;
   flex-direction: column;
 }
@@ -15,7 +15,7 @@
 /* Hero Section   */
 /* -------------- */
 .plan-trip-hero {
-  padding: 3rem 2rem;
+  
   text-align: center;
   color: #fff;
   margin-bottom: 2rem;
@@ -23,13 +23,17 @@
 }
 
 .plan-trip-hero h1 {
-  font-size: 2.5rem;
+  font-size: 4rem;
   margin-bottom: 0.5rem;
+  font-family: "Bebas Neue", serif;
+  font-weight: 400;
 }
 
 .plan-trip-hero p {
-  font-size: 1.2rem;
+  font-size: 1.5rem;
   margin: 0;
+  font-family: "Playfair Display", serif;
+  margin-bottom: 3rem;
 }
 
 /* -------------- */
@@ -39,6 +43,8 @@
   display: flex;
   gap: 2rem;
   flex-wrap: wrap;
+  font-family: "Playfair Display", serif;
+  
 }
 
 /* ---------- */
@@ -52,11 +58,13 @@
   box-shadow: 0px 0px 10px 2px rgba(14, 14, 18, 0.8);
   padding: 1rem;
   border-radius: 6px;
+  
 }
 
 .trip-form-wrapper h2 {
   margin-top: 0;
   margin-bottom: 1rem;
+  
 }
 
 .trip-form {
@@ -99,9 +107,7 @@
   background-color: #004999;
 }
 
-/* -------------- */
-/* Trip List Area */
-/* -------------- */
+
 .trip-list-wrapper {
   flex: 2 1 500px;
   min-width: 280px;
@@ -113,9 +119,7 @@
   margin-bottom: 1rem;
 }
 
-/* ----------- */
-/* Trip Items  */
-/* ----------- */
+
 .trip-list {
   list-style-type: none;
   padding: 0;
@@ -152,13 +156,11 @@
   font-size: 0.95rem;
 }
 
-/* -------------- */
-/* Action Buttons */
-/* -------------- */
+
 .trip-actions {
   display: flex;
   flex-direction: column;
-  gap: 0.5rem;
+  gap: 0.rem;
 }
 
 .edit-btn,
@@ -170,7 +172,7 @@
   font-weight: 600;
 }
 
-/* Edit Button */
+
 .edit-btn,
 .delete-btn  {
   background-color: #ffa500;
