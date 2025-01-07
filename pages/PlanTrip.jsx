@@ -66,7 +66,7 @@ function PlanATrip() {
     <div className="plan-trip-container">
       <header className="plan-trip-hero">
         <h1>Plan Your Trip</h1>
-        <p>Organize your visit to the Lincoln Monument.</p>
+        <p>Organize your visit to Washington D.C.</p>
       </header>
 
       <section className="plan-trip-content">
