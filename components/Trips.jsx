@@ -1,6 +1,6 @@
 import React from 'react'
 import './trips.css';
-import monument1 from '../public/monument1.jpg'; // Import your image
+import monument1 from '../src/monument1.jpg'; // Import your image
 
 
 export const Trips = () => {

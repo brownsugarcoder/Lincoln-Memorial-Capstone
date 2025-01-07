@@ -58,12 +58,13 @@ function History() {
       {/* Hero banner or header section */}
       <header className="history-hero">
         <h1>Washington DC in Movies</h1>
-        <p>Explore how Washington DC's iconic monuments have been featured in various films and TV shows.</p>
       </header>
       
       {/* Main content area */}
       <section className="history-content">
         <h2>Movies & TV Shows Featuring DC Monuments</h2>
+        <p>Explore how Washington DC's iconic monuments have been featured in various films and TV shows.</p>
+
         <ul className="history-timeline">
           {historyDetails.map((event, index) => (
             <li key={index} className="timeline-event">
@@ -78,13 +79,8 @@ function History() {
         </ul>
       </section>
 
-      {/* Additional Section: Historical Significance */}
-      <section className="historical-significance">
-        <h2>Why It Matters</h2>
-        <p>
-          Washington DC's monuments are not only symbols of national pride and history but also serve as iconic backdrops in storytelling. Their presence in films and TV shows helps to highlight the city's political significance and architectural beauty, making them integral to the narratives they portray.
-        </p>
-      </section>
+      
+      
     </div>
   );
 }

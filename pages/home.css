@@ -25,28 +25,24 @@
 }
 
 .home-page {
-    background: url('/lincoln2.jpg')  no-repeat;
-    height: 480px;
-    margin: 20px auto;
-    font-family: sans-serif;
+   
     margin: 0 auto;
+    
+
+  }
+
+  .hero-section{
+    background: url('/lincoln2.jpg')  no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+    height: 480px;
     border-radius: 18px;
     padding: 10rem;
     padding: 80px 8%;
     max-width: 2000px;
-  
-  
-    background-position: center;
-    background-size: cover;
-    
-    margin-top: 1%;
-    margin-left: 5%;
-    margin-right: 5%;
-   
-  }
-
-  .hero-section{
-
     
   }
   
@@ -66,10 +62,6 @@
   
   
   /* src/components/home.css */
-
-.home-page {
-  font-family: Arial, sans-serif;
-}
 
 
 .hero-text {
