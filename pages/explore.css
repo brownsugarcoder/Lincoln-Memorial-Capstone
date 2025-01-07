@@ -1,17 +1,12 @@
-
- 
-  .back-container {
-    backdrop-filter: blur(25px);
-    top: 50%;
-    left: 50%;
-    display: flex; 
-    
-    
-  }
+*{
   
-  /* ------------------------------------------------------- */
-  /* Main Wrapper (similar to .login-wrapper / .plan-trip)   */
-  /* ------------------------------------------------------- */
+}
+ 
+.exploreback-container {
+  backdrop-filter: blur(25px);
+
+}
+
   .explore-wrapper {
     width: 95%;
     max-width: 1200px;
@@ -21,13 +16,10 @@
     bottom: -50%;
     transform: translate(-50%, -50%);
     border-radius: 18px;
-    padding-top: 20px;
-    
+   
   }
   
-  /* ------------------------------------------------------- */
-  /* Heading & Paragraph                                     */
-  /* ------------------------------------------------------- */
+ 
   .explore-wrapper h1 {
     font-family: "Bebas Neue", serif;
     font-weight: 800;

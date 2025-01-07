@@ -37,7 +37,7 @@ function Explore() {
   ];
 
   return (
-    <div className="back-container">
+    <div className="exploreback-container">
       <div className="explore-wrapper">
         <h1>Explore Washington DC Food Destinations</h1>
         <p>Discover attractions, tours, and experiences in the heart of Washington, D.C.</p>

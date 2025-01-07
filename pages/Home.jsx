@@ -1,6 +1,5 @@
 import React from "react";
 import './home.css'; 
-/*import axios from "axios";*/
 
 const Home = () => {
   return (
