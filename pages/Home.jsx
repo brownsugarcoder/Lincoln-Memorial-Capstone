@@ -19,7 +19,7 @@ const Home = () => {
           <section className="intro-section">
             <h1></h1>
             <p></p>
-            <img src="src/bus.png" alt="bus icon" className="bus-icon" />
+            <img src="images/bus.png" alt="bus icon" className="bus-icon" />
 
           </section>
               

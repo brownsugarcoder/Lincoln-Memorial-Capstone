@@ -7,7 +7,7 @@ function History() {
       title: 'National Treasure',
       date: '2004',
       description: 'This adventure film showcases several Washington DC landmarks, including the Lincoln Memorial and the Washington Monument, as the protagonist searches for hidden historical treasures.',
-      image: 'https://img1.wsimg.com/isteam/ip/a56f40c6-758c-4558-b0cc-7cc942f7e33f/2.JPG/:/cr=t:12.49%25,l:0%25,w:100%25,h:75.02%25/rs=w:1200,h:600,cg:true' // Replace with actual image URL
+      image: './images/nationalT.png' // Replace with actual image URL
     },
     {
       title: 'Independence Day',
@@ -43,7 +43,7 @@ function History() {
       title: 'The Exorcist',
       date: '1973',
       description: 'Features scenes around the Georgetown neighborhood and the Washington Monument, adding to the film\'s eerie atmosphere.',
-      image: 'https://via.placeholder.com/300x200?text=The+Exorcist' // Replace with actual image URL
+      image: '/images/ex.jpg',// Replace with actual image URL
     },
     {
       title: "All the President's Men",

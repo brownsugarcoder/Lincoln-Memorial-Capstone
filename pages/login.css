@@ -7,8 +7,7 @@
   .background-container {
     min-height: 100vh;
     background-image: linear-gradient(rgba(122, 130, 140, 0.8),rgba(2, 2, 56, 0.8)), url(liconln.png);
-    background-position: center;
-    background-size: cover;
+   
     position: relative;
     margin-top: 1%;
     border-radius: 18px;
