@@ -28,7 +28,7 @@ function History() {
       image: 'https://www.independent.com/wp-content/uploads/2009/05/27/nightatthesmithsonian.jpg' // Replace with actual image URL
     },
     {
-      title: 'Forrest Gum',
+      title: 'Forrest Gump',
       date: '1994',
       description: "Includes memorable scenes set at the Washington Monument, highlighting key moments in the protagonist's life intertwined with historical events.",
       image: 'https://i.pinimg.com/736x/e9/4b/c1/e94bc197d21d3aa480a99a767117b1de.jpg' // Replace with actual image URL
