@@ -1,8 +1,8 @@
 /* src/components/Footer.css */
 
 .footer {
-    background-color: #333; /* Dark background for contrast */
-    color: #fff; /* White text for readability */
+    background-color: #333; 
+    color: #fff; 
     padding: 40px 0 20px 0;
     font-family: Arial, sans-serif;
   }
@@ -13,18 +13,18 @@
     justify-content: space-around;
     max-width: 1200px;
     margin: 0 auto;
-    padding: 0 20px;
+    padding: 0 0px;
   }
   
   .footer-section {
-    flex: 1 1 200px; /* Flex-grow, flex-shrink, flex-basis */
+    flex: 1 1 200px; 
     margin: 20px;
   }
   
   .footer-section h3 {
     margin-bottom: 15px;
     font-size: 1.2em;
-    color: #ff5722; /* Accent color */
+    color: #ff5722;
   }
   
   .footer-section p,
@@ -63,7 +63,7 @@
   .footer-section.contact i {
     margin-right: 10px;
     font-size: 1.2em;
-    color: #ff5722;
+    color: rgb(173, 113, 40);
   }
   
   .social-icons {
@@ -84,9 +84,9 @@
   
   .footer-bottom {
     text-align: center;
-    margin-top: 30px;
+    margin-top: 2px;
     border-top: 1px solid #444;
-    padding-top: 20px;
+    padding-top: 5px;
     font-size: 0.9em;
     color: #aaa;
   }

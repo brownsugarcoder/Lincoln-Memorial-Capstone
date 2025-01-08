@@ -20,16 +20,16 @@ const Footer = () => {
           <h3>Quick Links</h3>
           <ul>
             <li><a href="/">Home</a></li>
-            <li><a href="/trips">Trips</a></li>
-            <li><a href="/booking">Booking</a></li>
-            <li><a href="/contact">Contact</a></li>
+            <li><a href="/explore">Explore</a></li>
+            <li><a href="/about">History</a></li>
+            <li><a href="/plantrip">Plan Trip</a></li>
           </ul>
         </div>
 
         {/* Contact Section */}
         <div className="footer-section contact">
           <h3>Contact Us</h3>
-          <p><i className="ri-map-pin-line"></i> 123 Travel Lane, Adventure City</p>
+          <p><i className="ri-map-pin-line"></i> 123 Travel Lane, Washington, DC</p>
           <p><i className="ri-phone-line"></i> +1 (234) 567-8901</p>
           <p><i className="ri-mail-line"></i> info@travelagency.com</p>
         </div>

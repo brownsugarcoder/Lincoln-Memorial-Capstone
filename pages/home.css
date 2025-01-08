@@ -4,11 +4,11 @@
 .app-container {
   display: flex;
   flex-direction: column;
-  min-height: 100vh; /* Ensures the container takes at least the full viewport height */
+  min-height: 100vh; 
 }
 
 .main-content {
-  flex: 1; /* Allows the main content to expand and fill available space */
+  flex: 1; 
 }
 
 .bebas-neue-regular {
@@ -220,55 +220,55 @@ animation: fadeIn 2s ease-in forwards;
 
 @media (max-width: 992px) {
   .hero-section {
-    height: auto; /* Let the height adjust based on content */
-    padding: 60px 5%; /* Reduce padding for smaller screens */
-    margin: 5% 2.5%; /* Adjust margins */
+    height: auto; 
+    padding: 60px 5%; 
+    margin: 5% 2.5%; 
   }
 
   .hero-text h1 {
-    font-size: 4em; /* Reduce font size */
+    font-size: 4em; 
     margin-top: 40px;
     margin-bottom: 10px;
   }
 
   .hero-text p {
-    font-size: 1.2em; /* Slightly reduce font size */
-    padding: 0 10px; /* Add horizontal padding */
+    font-size: 1.2em; 
+    padding: 0 10px; 
   }
 
   .intro-section {
-    padding: 20px; /* Reduce padding */
+    padding: 20px; 
   }
 
   .bus-icon {
-    left: -50px; /* Adjust position */
-    width: 50px; /* Reduce size */
-    animation: moveBus 8s linear infinite; /* Adjust animation speed */
+    left: -50px; 
+    width: 50px;
+    animation: moveBus 8s linear infinite; 
   }
 
   .trips-wrapper h2 {
-    font-size: 50px; /* Reduce font size */
+    font-size: 50px; 
     margin-bottom: 15px;
     text-shadow: rgb(12, 12, 11) 1.5px 0 1px;
   }
 
   .trip-content h3 {
-    font-size: 1.2em; /* Reduce font size */
+    font-size: 1.2em; 
   }
 
   .trip-content p {
-    font-size: 0.9em; /* Slightly increase font size for readability */
+    font-size: 0.9em; 
   }
 
   .price {
-    font-size: 1.3em; /* Reduce font size */
+    font-size: 1.3em; 
   }
 }
 
-/* Mobile Devices (width <= 768px) */
+
 @media (max-width: 768px) {
   .hero-text h1 {
-    font-size: 3em; /* Further reduce font size */
+    font-size: 3em; 
   }
 
   .trips-wrapper h2 {
@@ -276,24 +276,24 @@ animation: fadeIn 2s ease-in forwards;
   }
 
   .card {
-    width: 90%; /* Increase width to occupy more space */
+    width: 90%; 
   }
 
   .trip-image {
-    height: 200px; /* Reduce image height */
+    height: 200px; 
   }
 
   .booking {
-    padding: 10px 15px; /* Adjust padding */
-    font-size: 0.9em; /* Reduce font size */
+    padding: 10px 15px; 
+    font-size: 0.9em; 
   }
 
   .pricing {
-    margin-top: 10px; /* Reduce margin */
+    margin-top: 10px;
   }
 }
 
-/* Small Mobile Devices (width <= 480px) */
+
 @media (max-width: 480px) {
   .hero-section {
     padding: 40px 2%;
@@ -301,7 +301,7 @@ animation: fadeIn 2s ease-in forwards;
   }
 
   .hero-text h1 {
-    font-size: 2em; /* Significantly reduce font size */
+    font-size: 2em; 
     margin-top: 20px;
     margin-bottom: 5px;
   }
@@ -321,7 +321,7 @@ animation: fadeIn 2s ease-in forwards;
   }
 
   .card {
-    width: 100%; /* Full width */
+    width: 100%; 
   }
 
   .trip-image {

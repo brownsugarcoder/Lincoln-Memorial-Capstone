@@ -5,8 +5,8 @@ function Explore() {
   
   const exploreItems = [
     {
-      title: 'Roses Luxury',
-      description: 'For an unforgettable dining experience, Roses Luxury on Capitol Hill is the place to be. This Michelin-starred restaurant offers an eclectic menu inspired by global flavors and local ingredients. ',
+      title: 'Rose Luxury',
+      description: 'For an unforgettable dining experience, Rose Luxury on Capitol Hill is the place to be. This Michelin-starred restaurant offers an eclectic menu inspired by global flavors and local ingredients. ',
       image: '/images/Rose.jpg', 
     },
     {
@@ -16,7 +16,7 @@ function Explore() {
     },
     {
       title: 'District Burger',
-      description: 'Craving authentic Mexican cuisine? District Taco offers a vibrant menu of freshly made tacos, burritos, and quesadillas using organic and locally sourced ingredients.',
+      description: 'The go-to spot for burger lovers craving bold flavors and fresh ingredients. Nestled in the heart of the city, our vibrant eatery combines the charm of a classic diner with a twist. ',
       image: '/images/burger.webp'
     },
     {
