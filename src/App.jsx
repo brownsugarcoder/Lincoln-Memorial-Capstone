@@ -1,6 +1,5 @@
 import React from 'react'
 import {BrowserRouter as Router, Routes, Route} from "react-router-dom";
-import Weather from '../components/Weather';
 import Home from '../pages/Home';
 import PlanTrip from '../pages/PlanTrip';
 import Login from '../pages/Login';
@@ -10,7 +9,7 @@ import Navbar from '../components/Navbar';
 import Trips from '../components/Trips';
 import 'remixicon/fonts/remixicon.css';
 import Footer from '../components/Footer';
-import Toggle from '../components/Toggle';
+
 
 
 import './assets/index.css'
@@ -19,21 +18,22 @@ function App () {
   return (
     <> 
    
-   
     <Router>
+    <div className="app-container">
       <Navbar />
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/about" element={<History />} />
-        <Route path="/explore" element={<Explore />} />
-        <Route path="/plantrip" element={<PlanTrip />} />
-        <Route path="/login" element={<Login />} />
-        </Routes>
-        
-      
-    </Router>
+      <div className="main-content">
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/about" element={<History />} />
+          <Route path="/explore" element={<Explore />} />
+          <Route path="/plantrip" element={<PlanTrip />} />
+          <Route path="/login" element={<Login />} />
+          </Routes>
+        </div>
+        <Footer />
+        </div>  
+      </Router>
     </>
-    
     
    
   );

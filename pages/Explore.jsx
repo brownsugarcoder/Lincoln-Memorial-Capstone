@@ -20,7 +20,7 @@ function Explore() {
       image: '/images/burger.webp'
     },
     {
-      title: 'Bens Chilli Bowl',
+      title: 'Kaliyas Lounge',
       description: 'Enjoy a quick bite or a sit-down meal at various cafés and restaurants around the National Mall.',
       image: '/images/drinks.webp',
     },
