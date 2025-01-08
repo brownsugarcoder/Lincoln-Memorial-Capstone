@@ -6,28 +6,31 @@
     font-family: Arial, sans-serif;
     color: hsla(211, 84%, 27%, 0.694);
     font-style: italic;
+    font-size: 0.9em;
     gap: 10px;
   }
-  
+  .weather-container h3 {
+    font-size: 0.9em;
+  }
+
   .weather-details {
     display: flex;
     align-items: center;
-    gap: 2px;
+    gap: 9px;
+    font-size: 0.9em;
   }
   
   .weather-details p {
     margin: 0;
+    color: #6a3535;
+  }
+  
+  .weather-icon{
+    width: 50px;
+    display: flex;
+    
+  }
+
+  .location h3{
     font-size: 0.9em;
-    color: #6a3535; /* White text for better contrast in navbar */
   }
-  
-  .weather-details img {
-    width: 30px;
-    height: 30px;
-  }
-  
-  .location-form {
-    display: none; /* Hide the form in the navbar for a cleaner look */
-  }
-  
-  
