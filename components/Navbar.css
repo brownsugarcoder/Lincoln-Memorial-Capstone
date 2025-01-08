@@ -4,15 +4,15 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 1rem;
+  padding: .3rem;
   margin-top: 3%;
   margin-left: 5%;
   margin-right: 5%;
   border: 1px solid #1e1e1e;
   border-radius: 12px;
   box-shadow: 0 0 5px;
-  background-color: #bcd0e5dc; 
-  opacity: 0.9; 
+  background-color: rgba(173, 113, 40, 0.884);
+  
   height: auto; 
 }
 
@@ -48,7 +48,9 @@
 }
 
 .weather {
-  margin-left: 20px; 
+  margin-left: 20px;
+  
+  
 }
 
 @media (max-width: 768px) {
@@ -61,11 +63,6 @@
     width: 100%;
     justify-content: space-between;
   }
+  
 
-  .weather {
-    margin-left: 15;
-    margin-top: 10px;
-    width: 100%;
-    text-align: center;
-  }
 }

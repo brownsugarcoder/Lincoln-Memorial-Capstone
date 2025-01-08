@@ -24,13 +24,13 @@ const Home = () => {
               
               {/* Popular Trips Section */}
           <section className="trips-wrapper section">
-            <h2>Popular Trips</h2>
+            <h2>Popular Tours</h2>
             <div className="cards">
               {/* Card 1 */}
             <div className="card">
                 <img src="src/loc.jpg" alt="Lincoln Memorial Walking Tour" className="trip-image" />
                 <div className="trip-content">
-                  <h3>US Capitol & Library of Congress Guided Tour with Capitol Hill</h3>
+                  <h3>US Capitol & Library of Congress Guided Tour</h3>
                   <p>Explore the rich history and architectural beauty of the Lincoln Memorial.</p>
                   <div className="rating">
                     <i className="ri-star-fill"></i>

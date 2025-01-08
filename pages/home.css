@@ -1,3 +1,7 @@
+*{
+ 
+}
+
 
 .bebas-neue-regular {
 font-family: "Bebas Neue", serif;
@@ -23,10 +27,8 @@ font-style: normal;
 }
 
 .home-page {
- 
-  margin: 0 auto;
 
-
+ margin: 0 auto;
 }
 
 .hero-section {
@@ -48,7 +50,8 @@ font-style: normal;
 .hero-text h1 {
 text-align: center;
 margin-top: 80px;
-color: rgb(152, 43, 43);
+color: rgb(173, 113, 40);
+text-shadow: rgb(12, 12, 11) 1px 0 8px;
 font-family: "Bebas Neue", serif;
 font-size: 8em;
 margin-bottom: 20px;
@@ -62,10 +65,11 @@ margin: 0 auto;
 }
 
 .hero-text p {
-font-size: 1.2em;
-color: #ffffff;
+font-size: 1.5em;
+color: #1a1515;
+text-shadow: rgb(173, 113, 40) 1.5px  2px;
 font-family: "Playfair Display", serif;
-font-weight: 400;
+font-weight: bold;
 }
 
 .intro-section {
@@ -83,20 +87,25 @@ animation: moveBus 10s linear infinite;
 }
 
 @keyframes moveBus {
-0% {
+  0% {
     left: -100px; 
-}
-100% {
+  }
+  50% {
+    left: 50%;
+  }
+  100% {
     left: 100%; 
+  }
 }
-}
+
 
 
 .trips-wrapper h2 {
 font-family: "Bebas Neue", serif;
 font-size: 70px;
 margin-bottom: 20px; 
-color: rgb(152, 43, 43);
+color: rgb(173, 113, 40);
+text-shadow: rgb(12, 12, 11) 2.5px 0 2px;
 }
 
 .cards {
@@ -119,26 +128,34 @@ object-fit: cover;
 .trip-content {
 padding: 15px;
 
+
 }
 
 
 .trip-content h3 {
-font-family: "Playfair Display", serif;
-margin: 10px 0;
-font-size: 1.3em;
-color: rgb(58, 58, 97);
+  font-family: "Playfair Display", serif;
+  margin: 10px 0;
+  font-size: 1.5em;
+  line-height: 1.2; 
+  color: rgb(58, 58, 97);
+  text-align: center; /* Centers the text */
 }
 
 .trip-content p {
 color: #555;
-font-size: 0.9em;
+font-size: 0.8em;
+
 }
 
 .rating  {
-color: #f8e825; 
-margin-right: 2px;
-align-items: center;
 display: flex;
+justify-content: center;
+color: #f8e825; 
+text-shadow: rgb(12, 12, 11) 1px 0 .5px;
+
+margin: 10px 0; 
+
+
 }
 
 .booking {
@@ -191,4 +208,136 @@ to { opacity: 1; }
 
 .fade-in-keyframes{
 animation: fadeIn 2s ease-in forwards;
+}
+
+@media (max-width: 992px) {
+  .hero-section {
+    height: auto; /* Let the height adjust based on content */
+    padding: 60px 5%; /* Reduce padding for smaller screens */
+    margin: 5% 2.5%; /* Adjust margins */
+  }
+
+  .hero-text h1 {
+    font-size: 4em; /* Reduce font size */
+    margin-top: 40px;
+    margin-bottom: 10px;
+  }
+
+  .hero-text p {
+    font-size: 1.2em; /* Slightly reduce font size */
+    padding: 0 10px; /* Add horizontal padding */
+  }
+
+  .intro-section {
+    padding: 20px; /* Reduce padding */
+  }
+
+  .bus-icon {
+    left: -50px; /* Adjust position */
+    width: 50px; /* Reduce size */
+    animation: moveBus 8s linear infinite; /* Adjust animation speed */
+  }
+
+  .trips-wrapper h2 {
+    font-size: 50px; /* Reduce font size */
+    margin-bottom: 15px;
+    text-shadow: rgb(12, 12, 11) 1.5px 0 1px;
+  }
+
+  .trip-content h3 {
+    font-size: 1.2em; /* Reduce font size */
+  }
+
+  .trip-content p {
+    font-size: 0.9em; /* Slightly increase font size for readability */
+  }
+
+  .price {
+    font-size: 1.3em; /* Reduce font size */
+  }
+}
+
+/* Mobile Devices (width <= 768px) */
+@media (max-width: 768px) {
+  .hero-text h1 {
+    font-size: 3em; /* Further reduce font size */
+  }
+
+  .trips-wrapper h2 {
+    font-size: 40px;
+  }
+
+  .card {
+    width: 90%; /* Increase width to occupy more space */
+  }
+
+  .trip-image {
+    height: 200px; /* Reduce image height */
+  }
+
+  .booking {
+    padding: 10px 15px; /* Adjust padding */
+    font-size: 0.9em; /* Reduce font size */
+  }
+
+  .pricing {
+    margin-top: 10px; /* Reduce margin */
+  }
+}
+
+/* Small Mobile Devices (width <= 480px) */
+@media (max-width: 480px) {
+  .hero-section {
+    padding: 40px 2%;
+    margin: 5% 1%;
+  }
+
+  .hero-text h1 {
+    font-size: 2em; /* Significantly reduce font size */
+    margin-top: 20px;
+    margin-bottom: 5px;
+  }
+
+  .hero-text p {
+    font-size: 1em;
+  }
+
+  .bus-icon {
+    left: -30px;
+    width: 40px;
+    animation: moveBus 6s linear infinite;
+  }
+
+  .trips-wrapper h2 {
+    font-size: 30px;
+  }
+
+  .card {
+    width: 100%; /* Full width */
+  }
+
+  .trip-image {
+    height: 180px;
+  }
+
+  .trip-content h3 {
+    font-size: 1em;
+  }
+
+  .trip-content p {
+    font-size: 0.85em;
+  }
+
+  .price {
+    font-size: 1.2em;
+  }
+
+  .pickup-info {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .pickup-info i {
+    margin-bottom: 3px;
+  }
 }

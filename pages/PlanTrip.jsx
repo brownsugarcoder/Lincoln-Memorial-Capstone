@@ -24,7 +24,7 @@ function PlanATrip() {
         }
         const data = await response.json();
         console.log (data)
-        setTripList(data); // Assuming the API returns an array of trips
+        setTripList(data); 
       } catch (err) {
         setError(err.message);
       }
@@ -156,7 +156,7 @@ function PlanATrip() {
                 />
               </div>
               <div className="form-group">
-                <label htmlFor="description">Description</label>
+                <label htmlFor="description">Packing List</label>
                 <textarea
                   name="description"
                   id="description"
