@@ -6,7 +6,6 @@ import Login from '../pages/Login';
 import History from '../pages/History';
 import Explore from '../pages/Explore';
 import Navbar from '../components/Navbar';
-import Trips from '../components/Trips';
 import 'remixicon/fonts/remixicon.css';
 import Footer from '../components/Footer';
 
