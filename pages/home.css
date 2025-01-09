@@ -7,9 +7,6 @@
   min-height: 100vh; 
 }
 
-.main-content {
-  flex: 1; 
-}
 
 .bebas-neue-regular {
 font-family: "Bebas Neue", serif;
@@ -40,7 +37,7 @@ font-style: normal;
 }
 
 .hero-section {
-  background: url('src/lincoln2.jpg')  no-repeat;
+  background: url('images/lincoln2.jpg')  no-repeat;
   background-position: center;
   background-size: cover;
   margin-top: 5%;
@@ -83,6 +80,7 @@ font-weight: bold;
 .intro-section {
 padding: 40px;
 
+
 }
 
 .bus-icon{
@@ -117,11 +115,32 @@ text-shadow: rgb(12, 12, 11) 2.5px 0 2px;
 }
 
 .cards {
-display: flex;
-flex-wrap: wrap;
-justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  max-width: 1200px;
+  margin: 0 auto; /* Center horizontally */
+  border-radius: 18px;
+  padding: 2rem; /* Add padding for spacing */
+  background-color: rgba(255, 255, 255, 0.1); 
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 
 }
+
+.card {
+  background: hsla(240, 17%, 36%, 0.661);
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  width: 400px;
+  overflow: hidden;
+  transition: transform 0.3s;
+}
+
+
+
 
 
 .card:hover {
@@ -135,7 +154,7 @@ object-fit: cover;
 }
 .trip-content {
 padding: 15px;
-
+ background-color: rgba(255, 255, 255, 0.1);
 
 }
 
@@ -218,134 +237,3 @@ to { opacity: 1; }
 animation: fadeIn 2s ease-in forwards;
 }
 
-@media (max-width: 992px) {
-  .hero-section {
-    height: auto; 
-    padding: 60px 5%; 
-    margin: 5% 2.5%; 
-  }
-
-  .hero-text h1 {
-    font-size: 4em; 
-    margin-top: 40px;
-    margin-bottom: 10px;
-  }
-
-  .hero-text p {
-    font-size: 1.2em; 
-    padding: 0 10px; 
-  }
-
-  .intro-section {
-    padding: 20px; 
-  }
-
-  .bus-icon {
-    left: -50px; 
-    width: 50px;
-    animation: moveBus 8s linear infinite; 
-  }
-
-  .trips-wrapper h2 {
-    font-size: 50px; 
-    margin-bottom: 15px;
-    text-shadow: rgb(12, 12, 11) 1.5px 0 1px;
-  }
-
-  .trip-content h3 {
-    font-size: 1.2em; 
-  }
-
-  .trip-content p {
-    font-size: 0.9em; 
-  }
-
-  .price {
-    font-size: 1.3em; 
-  }
-}
-
-
-@media (max-width: 768px) {
-  .hero-text h1 {
-    font-size: 3em; 
-  }
-
-  .trips-wrapper h2 {
-    font-size: 40px;
-  }
-
-  .card {
-    width: 90%; 
-  }
-
-  .trip-image {
-    height: 200px; 
-  }
-
-  .booking {
-    padding: 10px 15px; 
-    font-size: 0.9em; 
-  }
-
-  .pricing {
-    margin-top: 10px;
-  }
-}
-
-
-@media (max-width: 480px) {
-  .hero-section {
-    padding: 40px 2%;
-    margin: 5% 1%;
-  }
-
-  .hero-text h1 {
-    font-size: 2em; 
-    margin-top: 20px;
-    margin-bottom: 5px;
-  }
-
-  .hero-text p {
-    font-size: 1em;
-  }
-
-  .bus-icon {
-    left: -30px;
-    width: 40px;
-    animation: moveBus 6s linear infinite;
-  }
-
-  .trips-wrapper h2 {
-    font-size: 30px;
-  }
-
-  .card {
-    width: 100%; 
-  }
-
-  .trip-image {
-    height: 180px;
-  }
-
-  .trip-content h3 {
-    font-size: 1em;
-  }
-
-  .trip-content p {
-    font-size: 0.85em;
-  }
-
-  .price {
-    font-size: 1.2em;
-  }
-
-  .pickup-info {
-    flex-direction: column;
-    align-items: flex-start;
-  }
-
-  .pickup-info i {
-    margin-bottom: 3px;
-  }
-}
