@@ -1,6 +1,9 @@
-# React + Vite
+# Washington DC Travel
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a full-stack web application developed using React and Vite. The application is desgined to be a Washington, DC Travel site. The website gives information about Washington DC and how to plan a trip there.
+
+A weather API is intergrated to show the current weather in the city. Perfect for planning out day trips/excursions.
+
 
 Currently, two official plugins are available:
 
