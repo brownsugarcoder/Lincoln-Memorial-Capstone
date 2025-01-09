@@ -145,13 +145,13 @@ function PlanATrip() {
             <h2>{editIndex !== null ? 'Edit Trip' : 'Add a New Trip'}</h2>
             <form onSubmit={handleSubmit} className="trip-form">
               <div className="form-group">
-                <label htmlFor="destination">Trip Destination</label>
+                <label htmlFor="destination">Trip Type</label>
                 <input
                   type="text"
                   name="destination"
                   value={formData.destination}
                   onChange={handleChange}
-                  placeholder="e.g., Paris"
+                  placeholder="e.g., Weekend Getaway"
                   required
                 />
               </div>
@@ -177,7 +177,7 @@ function PlanATrip() {
                 />
               </div>
               <div className="form-group">
-                <label htmlFor="description">Description</label>
+                <label htmlFor="description">Notes</label>
                 <textarea
                   name="description"
                   id="description"
