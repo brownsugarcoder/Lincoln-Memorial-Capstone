@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import './planTrip.css';
+import './plantrip.css';
 
 const API_URL = 'https://backend-capstone-f39e.onrender.com/api/trips'; // Replace with your backend URL
 
