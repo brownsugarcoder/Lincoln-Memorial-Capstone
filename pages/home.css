@@ -37,7 +37,7 @@ font-style: normal;
 }
 
 .hero-section {
-  background: url('images/lincoln2.jpg')  no-repeat;
+  background: url('/images/lincoln2.jpg')  no-repeat;
   background-position: center;
   background-size: cover;
   margin-top: 5%;
